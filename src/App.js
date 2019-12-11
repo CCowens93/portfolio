@@ -17,7 +17,7 @@ function App() {
       <div className="navbar">
 
 
-        <Link to="/home" className="item">Home</Link>
+        <Link to="/" className="item">Home</Link>
         <Link to="/about" className="item">About</Link>
         <Link to="/portfolio" className="item">Portfolio</Link>
         <Link to='/skills' className="item">Skills</Link>
@@ -29,7 +29,7 @@ function App() {
         <div className="App">
 
 
-          <Route path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/portfolio" component={Projects} />
           <Route path="/skills" component={Skills} />
