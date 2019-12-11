@@ -137,7 +137,8 @@ img {
 	display: inline-block;
 	position: relative;
 	border-radius: 100%;
-	background: url(headshot.jpg)
+	background: url(headshot.jpg);
+	filter: brightness(120%) sepia(70%);
 }
 
 .home_background{
