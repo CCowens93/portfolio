@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import portfolio_img from './portfolio_home.jpg'
-import headshot from './headshot.jpg'
+import profilepic from './profilepic.jpg'
 
 class home extends Component {
 
@@ -19,7 +19,7 @@ class home extends Component {
                 </div>
                 <div className="me">
                     <div className="headshot">
-                        <img src={headshot} height={200} width={200} alt="headshot"></img>
+                        <img src={profilepic} height={200} width={200} alt="headshot"></img>
                     </div>
                     <h1>Cassandra Cowens</h1>
                     <h2>Full Stack Software Engineer</h2>
